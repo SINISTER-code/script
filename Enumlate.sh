@@ -446,3 +446,4 @@ printf "\n $red So long, and thanks \n $reset"
 printf "\n"
 
 ) 2>&1 | /usr/bin/tee enum.log
+

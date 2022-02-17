@@ -2,7 +2,7 @@
 import smtplib
 import pip._vendor.requests as requests
 import os
-with open("currentVal.txt","r") as f:
+with open("Currentmarksval.txt","r") as f:
     current=int(f.read())
 with requests.Session() as c:
     loginurl='https://webkiosk.thapar.edu/CommonFiles/UserAction.jsp'

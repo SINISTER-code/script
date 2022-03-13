@@ -18,7 +18,7 @@ def regex(str):
 
 def stripNum(str):
 	if not str:
-		return None
+		return Nonesh
 	start=re.search(r'\(\d+\).*',str)
 	return str if not start else str[:start.start()]
 		
